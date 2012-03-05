@@ -1,0 +1,99 @@
+.coda-slider, .coda-slider .panel {
+    width: 868px;
+}
+.coda-nav li {
+    padding-bottom: 5px;
+}
+.caption a:link, .caption a:visited, .caption a:active {
+    color: #FF9966;
+    font-weight: bold;
+    text-decoration: none;
+}
+.caption a:hover {
+    color: #0886CF;
+    text-decoration: underline;
+}
+.coda-slider p.loading {
+}
+.coda-nav {
+    height: 50px;
+    position: absolute;
+    right: 47px;
+    top: 218px;
+    z-index: 75;
+}
+.loc {
+    right: 54px;
+}
+.coda-nav ul#slider-2 {
+    width: 50px;
+}
+.coda-nav ul#slider-3 {
+    width: 78px;
+}
+.coda-nav ul#slider-4 {
+    width: 103px;
+}
+.coda-nav ul#slider-5 {
+    width: 128px;
+}
+.coda-nav ul li {
+    display: block;
+    float: left;
+    margin-left: 4px;
+}
+.coda-nav ul li a {
+    background: none repeat scroll 0 0 #F8F5EB;
+    border: 1px solid #A8A8AA;
+    color: #756E67;
+    cursor: pointer;
+    display: block;
+    font-size: 12px;
+    height: 18px;
+    text-align: center;
+    text-decoration: none;
+    width: 18px;
+}
+.coda-nav ul li a.current {
+    background: none repeat scroll 0 0 #9A2236;
+    border: 1px solid #BAB0A6;
+    color: #F8F5EB;
+}
+#coda-nav-1 {
+    display: inline;
+    float: left;
+    padding-right: 2px;
+}
+#coda-slider-1 {
+    display: inline;
+    float: left;
+}
+.panel-wrapper {
+    position: relative;
+}
+.coda-slider-wrapper {
+    clear: both;
+    overflow: auto;
+}
+.coda-slider {
+    float: left;
+    overflow: hidden;
+    position: relative;
+}
+.coda-slider .panel {
+    display: inline;
+    float: left;
+}
+.coda-slider .panel-container {
+    position: relative;
+}
+.coda-nav-left, .coda-nav-right {
+    display: inline;
+    float: left;
+}
+.coda-nav-left a, .coda-nav-right a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+}
+

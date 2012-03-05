@@ -1,0 +1,73 @@
+/*
+	jQuery Coda-Slider v2.0 - http://www.ndoherty.biz/coda-slider
+	Copyright (c) 2009 Niall Doherty
+	This plugin available for use in all personal or commercial projects under both MIT and GPL licenses.
+*/
+	
+	/* Change the width of the entire slider (without dynamic arrows) */
+	.coda-slider, .coda-slider .panel { width: 868px; /* width: 334px */} 
+	.coda-nav li {padding-bottom: 5px;}
+	.caption a:link, .caption a:visited, .caption a:active {color: #ff9966; font-weight: bold; text-decoration: none;}
+	.caption a:hover {color: #0886cf; text-decoration: underline;}	
+	/* Preloader */
+	.coda-slider p.loading {}
+
+/* Don't change anything below here unless you know what you're doing */
+
+	/* Tabbed nav */
+	.coda-nav {
+		position: absolute;
+		z-index:75;
+		top: 218px;
+		right: 47px;
+		height: 50px;
+	}
+	.loc {right: 54px;}
+	.coda-nav ul#slider-2 { 
+		width: 50px;
+	}
+	.coda-nav ul#slider-3 { 
+		width: 78px;
+	}
+	.coda-nav ul#slider-4 { 
+		width: 103px;
+	}
+	.coda-nav ul#slider-5 { 
+		width: 128px;
+	}
+	.coda-nav ul li {
+		margin-left: 4px;
+		float: left;
+		display: block;
+	}
+	.coda-nav ul li a {
+		display: block;
+		text-decoration: none;
+		width: 18px;
+		height: 18px;
+		font-size: 12px;
+		border: 1px solid #a8a8aa;
+		background: #f8f5eb;
+		color:#756e67;
+		cursor: pointer;
+		text-align: center;
+		/*background-image: url('images/template/nav-other.png');*/ 
+	}
+	.coda-nav ul li a.current {
+		border: 1px solid #bab0a6;
+		background: #9a2236;
+		color:#f8f5eb;
+		/*background-image: url(images/template/nav-current.png);*/ 
+	}
+	
+	/* Miscellaneous */
+	#coda-nav-1 {float: left; display: inline; padding-right: 2px;overflow-y: none;}
+	#coda-slider-1 {float: left;  display: inline; }
+	.panel-wrapper {position: relative; }
+	.coda-slider-wrapper { clear: both; overflow: auto }
+	.coda-slider { float: left; overflow: hidden; position: relative }
+	.coda-slider .panel { display: block; float: left; display: inline; }
+	.coda-slider .panel-container { position: relative; }
+	.coda-nav-left, .coda-nav-right { float: left; display: inline; }
+	.coda-nav-left a, .coda-nav-right a { display: block; text-align: center; text-decoration: none }
+	

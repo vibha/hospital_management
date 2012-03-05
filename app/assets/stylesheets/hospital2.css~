@@ -1,0 +1,141 @@
+#home #content-wrap, .global-interior #content-wrap, #loc-home #content-wrap, .loc-interior #content-wrap {
+    float: none;
+    left: 0;
+    overflow: visible;
+    position: relative;
+    width: 600px;
+}
+.global-interior #content-wrapper {
+    border-bottom: medium none;
+    float: none;
+    left: 0;
+    overflow: visible;
+    position: relative;
+    width: auto;
+}
+#interior-body-wrap {
+    float: none;
+    left: 0;
+    overflow: visible;
+    position: relative;
+    width: 600px;
+}
+#interior-body-wrap h1 {
+    font-size: 22px;
+    margin-top: 15px;
+}
+#interior-body-wrap h2 {
+    font-size: 18px;
+    margin-top: 15px;
+}
+#interior-body-wrap p, #interior-body-wrap li {
+    font-family: Arial,san-serif;
+    font-size: 14px;
+    left: 0;
+    position: relative;
+    width: auto;
+}
+.interior-body {
+    float: none;
+    overflow: visible;
+    width: auto;
+}
+#header h1 span {
+    color: black;
+    display: none;
+    float: none;
+    font-family: "Times New Roman",Georgia,serif;
+    font-size: 30px;
+    height: 40px;
+    left: 0;
+    position: relative;
+}
+#header h1 a {
+    color: black;
+    display: list-item;
+    float: none;
+    height: 69px;
+    left: 0;
+    list-style-image: url("/images/template/indiana-university-health.gif");
+    list-style-position: inside;
+    padding-bottom: 20px;
+    position: relative;
+    text-decoration: none;
+    width: 337px;
+}
+a {
+    color: black;
+}
+form {
+}
+#footer-wrapper, #search, #searchForm, #side-nav, #main-callout, #main-callout #slider, .right-callouts, .breadcrumbs {
+    border: medium none;
+    display: none;
+    float: none;
+    height: 0;
+    width: 0;
+}
+#global-nav-return, #nav-wrap, #loc-footer-wrapper, #print, #nav-arnett, #nav-ball, #header ul, #nav-blackford, #nav-laporte, #nav-methodist, #nav-north, #nav-riley, #nav-saxony, #nav-starke, #nav-sim-center, #nav-tipton, #nav-university, #nav-west, #global-nav {
+    display: none;
+}
+#freeform {
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    overflow: visible;
+    width: 100%;
+}
+#freeform .fieldset {
+    border: medium none;
+    float: none;
+    font-family: Arial,san-serif;
+    overflow: visible;
+    padding-bottom: 0;
+}
+#freeform .required {
+    color: #981E32;
+}
+#freeform .left-label, #freeform .right-label {
+    clear: both;
+    overflow: hidden;
+    padding-bottom: 10px;
+}
+#freeform .left-label label {
+    clear: both;
+    float: left;
+    overflow: hidden;
+    width: 210px;
+}
+#freeform .left-label input, #freeform .left-label select, #freeform .left-label #address {
+    width: 250px;
+}
+#freeform .left-label #address {
+    height: 50px;
+}
+#freeform .right-label div.field-title {
+    float: left;
+    overflow: hidden;
+    width: 210px;
+}
+#freeform .right-label div.associated-fields {
+    clear: both;
+    float: left;
+    overflow: hidden;
+}
+#freeform .right-label label {
+    display: block;
+    float: right;
+    font-weight: normal;
+    width: auto;
+}
+.check-radio-text {
+    float: right;
+    width: 300px;
+}
+.check-radio {
+    float: left;
+}
+#freeform .submit {
+    display: none;
+}
+

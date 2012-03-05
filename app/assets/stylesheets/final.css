@@ -1,0 +1,526 @@
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, code, del, dfn, em, img, q, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, object {
+    border: 0 none;
+    font-family: inherit;
+    font-size: 100%;
+    font-style: inherit;
+    font-weight: inherit;
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+}
+body {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    line-height: 1.5;
+}
+table {
+    border-collapse: separate;
+    border-spacing: 0;
+}
+caption, th, td {
+    font-weight: normal;
+    text-align: left;
+}
+table, td, th {
+    vertical-align: middle;
+}
+blockquote:before, blockquote:after, q:before, q:after {
+    content: "";
+}
+blockquote, q {
+    quotes: "" "";
+}
+a img {
+    border: medium none;
+}
+a:focus {
+    outline: medium none;
+}
+body {
+    font-size: 100%;
+}
+#home {
+    background: url("bg-main.gif") repeat-x scroll 0 0 #F6ECD4;
+    padding: 5px 0 0;
+    position: relative;
+    z-index: 0;
+}
+#global-nav, #content-wrap, #nav-home, #footer-wrapper, #loc-footer-wrapper, #loc-footer-wrapper-2, #global-nav-return {
+    height: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+    width: 940px;
+}
+#home #content-wrap, .global-interior #content-wrap, #loc-home #content-wrap, .loc-interior #content-wrap {
+    background: url("content-bg.gif") repeat-x scroll 0 0 #F9F1DC;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+#global-nav{
+    background:#99182C;
+    font-weight:bold;
+    font-size:13px;
+    color:white;
+    letter-spacing:-0.1px;
+    height:33px;
+    box-shadow: 10px 10px 5px #888;
+    border-bottom:1px dotted #999999;
+}
+#global-nav #top-nav-container{
+    padding:8px 0px 0px 11px;
+}
+#nav-links{
+    padding:0px 0px 0px 50px;
+}
+
+hr {
+    background-color: #696A6D;
+    border: medium none;
+    clear: both;
+    height: 5px;
+    margin-bottom: 20px;
+}
+
+#nav-wrap #global-nav {
+    height: 34px;
+    margin: 122px 0 0;
+    padding: 0;
+    position: relative;
+    width: 941px;
+    z-index: 5;
+}
+
+#nav-wrap #global-nav #top-nav-container span a {
+    text-decoration:none;
+    color:white;
+/*    background-color:#fff5e8;*/
+}
+
+/*#nav-wrap #global-nav #top-nav-container span a:hover {*/
+/*    text-decoration:none;*/
+/*    color:#696A6D;*/
+/*    background-color:#fff5e8;*/
+/*    background-size:5px 8px;*/
+/*}*/
+
+/*#nav-wrap #global-nav #top-nav-container span a:visited {*/
+/*    text-decoration:none;*/
+/*    color:#696A6D;*/
+/*    background-color:#fff5e8;*/
+/*    background-size:5px 8px;*/
+/*}*/
+
+/*#nav-wrap #global-nav li {*/
+/*    list-style: none outside none;*/
+/*    position: absolute;*/
+/*    z-index: 100;*/
+/*}*/
+/*#nav-wrap #global-nav li, #nav-wrap #global-nav li a {*/
+/*    display: block;*/
+/*    height: 45px;*/
+/*}*/
+/*#nav-wrap #global-nav #nav-1 {*/
+/*    left: 0;*/
+/*    width: 64px;*/
+/*}*/
+/*#nav-wrap #global-nav #nav-2 {*/
+/*    left: 65px;*/
+/*    width: 146px;*/
+/*}*/
+/*#nav-wrap #global-nav #nav-3 {*/
+/*    left: 212px;*/
+/*    width: 114px;*/
+/*}*/
+/*#nav-wrap #global-nav #nav-4 {*/
+/*    left: 332px;*/
+/*    width: 106px;*/
+/*}*/
+/*#nav-wrap #global-nav #nav-5 {*/
+/*    left: 442px;*/
+/*    width: 200px;*/
+/*}*/
+/*#nav-wrap #global-nav #nav-6 {*/
+/*    left: 642px;*/
+/*    width: 142px;*/
+/*}*/
+/*#nav-wrap #global-nav #nav-7 {*/
+/*    left: 788px;*/
+/*    width: 148px;*/
+/*}*/
+/*#home #nav-wrap a:hover, #home #nav-wrap a#global-selected {*/
+/*    background: url("glo-nav_home_090711.gif") no-repeat scroll 0 0 transparent;*/
+/*}*/
+/*#nav-wrap #nav-1 a:hover, #nav-wrap #nav-1 a#global-selected {*/
+/*    background-position: 0 -45px;*/
+/*}*/
+/*#nav-wrap #nav-2 a:hover, #nav-wrap #nav-2 a#global-selected {*/
+/*    background-position: -65px -45px;*/
+/*}*/
+/*#nav-wrap #nav-3 a:hover, #nav-wrap #nav-3 a#global-selected {*/
+/*    background-position: -212px -45px;*/
+/*}*/
+/*#nav-wrap #nav-4 a:hover, #nav-wrap #nav-4 a#global-selected {*/
+/*    background-position: -332px -45px;*/
+/*}*/
+/*#nav-wrap #nav-5 a:hover, #nav-wrap #nav-5 a#global-selected {*/
+/*    background-position: -442px -45px;*/
+/*}*/
+/*#nav-wrap #nav-6 a:hover, #nav-wrap #nav-6 a#global-selected {*/
+/*    background-position: -642px -45px;*/
+/*}*/
+/*#nav-wrap #nav-7 a:hover, #nav-wrap #nav-7 a#global-selected {*/
+/*    background-position: -788px -45px;*/
+/*}*/
+#header h1 a {
+    background: url("smh-main.gif") no-repeat scroll 0 0 transparent;
+    display: block;
+    height: 69px;
+    position: absolute;
+    top: 32px;
+    width: 337px;
+    z-index: 1000;
+}
+#header h1 span {
+    display: none;
+}
+#search {
+    background: none repeat scroll 0 0 #696A6D;
+    border: 1px solid #A1A1A4;
+    display: inline;
+    float: right;
+    height: 26px;
+    margin-top: 15px;
+    overflow: hidden;
+    position: relative;
+}
+#search label {
+    left: -9999px;
+    position: absolute;
+}
+#search input {
+    display: inline;
+    float: left;
+    font-size: 11px;
+}
+#search-box {
+    background: none repeat scroll 0 0 white;
+    border: 1px solid #C7C7C7;
+    color: #696A6D;
+    height: 14px;
+    margin: 4px 6px;
+    width: 174px;
+}
+.search-btn {
+    background: url("search_mag.gif") no-repeat scroll center 2px transparent;
+    border: medium none;
+    height: 22px;
+    margin-right: 4px;
+    width: 22px;
+}
+.search-btn:hover {
+    cursor: pointer;
+}
+.global-interior #search, .global-interior #print, #home #search, #home #print {
+    margin-top: 53px;
+}
+#home #main-callout {
+    background: url("glo-slider-bg.gif") no-repeat scroll 0 -10px transparent;
+    clear: both;
+    display: inline;
+    float: left;
+    height: 310px;
+    margin: 0 0 9px;
+    width: 941px;
+}
+#home #slider {
+    margin: 18px 0 0 34px;
+    position: relative;
+    z-index: 1;
+}
+#home #bottom-callouts {
+    background: url("glo-home-bottom-callouts.png") no-repeat scroll 0 0 transparent;
+    clear: both;
+    height: 341px;
+    padding-bottom: 15px;
+    padding-top: 20px;
+    width: 941px;
+}
+#home #bottom-callouts p {
+    color: #34312E;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 13px;
+    line-height: 16px;
+}
+#home #bottom-callouts a:link, #home #bottom-callouts a:visited, #home #bottom-callouts a:active {
+    color: #981E32;
+    text-decoration: none;
+}
+#home #bottom-callouts a:hover {
+    text-decoration: underline;
+}
+#home h2 {
+    background: none repeat scroll 0 0 #696A6D;
+    border: 1px solid #A1A1A4;
+    color: #FFFFFF;
+    font-family: "Franklin ITC W01 Bold",Arial,sans-serif;
+    font-size: 15px;
+    height: 24px;
+    padding: 2px 0 0;
+    text-align: center;
+    text-shadow: 1px 1px 1px #3A3B3E;
+    text-transform: uppercase;
+}
+#home #bottom-callouts .left {
+    display: inline;
+    float: left;
+    padding-left: 21px;
+    width: 176px;
+}
+#home #locations {
+    padding-bottom: 16px;
+}
+#home #locations a {
+    background: url("awards.jpeg") no-repeat scroll 0 0 transparent;
+    display: block;
+    height: 112px;
+    width: 176px;
+}
+#home #news{
+    background: url("glo-home-call-single.jpg");
+    background-size:175px 268px;
+    background-repeat:no-repeat;
+} 
+#home #locations a:hover {
+    background: url("awards.jpeg") no-repeat scroll 0 -112px transparent;
+}
+#home #locations span {
+    display: none;
+}
+#home .services {
+}
+#home #services a {
+    background: url("glo-home-call-stack-fin.jpg") no-repeat scroll 0 0 transparent;
+    display: block;
+    height: 112px;
+    width: 176px;
+}
+#home #services a:hover {
+    background: url("glo-home-call-stack-fin.jpg") no-repeat scroll 0 -112px transparent;
+}
+#home #services span {
+    display: none;
+}
+#home #bottom-callouts .center {
+    background: url("glo-home-call-three-wide.gif") no-repeat scroll 0 26px transparent;
+    display: inline;
+    float: left;
+    height: 298px;
+    margin-left: 15px;
+    width: 517px;
+}
+#home #bottom-callouts .center ul, #home #bottom-callouts .left ul {
+    padding: 20px 0 0 26px;
+    width: 507px;
+}
+#home #bottom-callouts .center ul li, #home #bottom-callouts .left ul li {
+    display: inline;
+    float: left;
+    padding-right: 14px;
+    width: 152px;
+}
+#home #bottom-callouts .center ul li img, #home #bottom-callouts .left ul li img{
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 2px solid #696A6D;
+    padding: 5px;
+}
+#home #bottom-callouts .center ul li a:hover img {
+    border: 2px solid #981E32;
+    box-shadow: 0 0 5px 2px #756E67;
+}
+#home #bottom-callouts .center ul h3 {
+    background: none repeat scroll 0 0 transparent;
+    color: #3E3B37;
+    display: block;
+    font-family: "Calisto MT W01",Times,serif;
+    font-size: 20px;
+    line-height: 25px;
+    margin-top: 8px;
+    text-shadow: 1px 1px 1px #FFFFFF;
+    width: 152px;
+}
+#home #bottom-callouts .right {
+    background: url("glo-home-call-single.jpg") no-repeat scroll 0 26px transparent;
+    display: inline;
+    float: left;
+    height: 296px;
+    margin-left: 15px;
+    width: 176px;
+}
+#home #bottom-callouts .right ul {
+    font-size: 13px;
+    line-height: 17px;
+    list-style-type: none;
+    padding: 10px 0 0 16px;
+    width: 146px;
+}
+#home #bottom-callouts .right ul li {
+    padding-bottom: 14px;
+}
+#home #bottom-callouts .right ul li span {
+    color: #646464;
+    display: block;
+    font-size: 12px;
+    font-style: italic;
+    line-height: 17px;
+}
+#home #bottom-callouts .right p {
+    padding-left: 16px;
+}
+#footer-wrapper {
+    background: none repeat scroll 0 0 #F9F1DC;
+    clear: both;
+    color: #696A6D;
+    display: block;
+    font-size: 11px;
+    line-height: 16px;
+}
+#footer-wrap-interior {
+    border-top: 1px solid #C3B99E;
+}
+#footer {
+    border-top: 1px solid #FFFFFF;
+    margin: 0 auto;
+    padding: 10px 0 0;
+}
+#footer a:link, #footer a:visited, #footer a:active {
+    color: #696A6D;
+    text-decoration: none;
+}
+#footer a:hover {
+    color: #34312E;
+    text-decoration: underline;
+}
+#footer .footer-nav {
+    border-bottom: 1px solid #C3B99E;
+    overflow: hidden;
+    text-transform: uppercase;
+}
+#footer .footer-nav .nav-left {
+    display: inline;
+    float: left;
+    width: 370px;
+}
+#footer .footer-nav .nav-middle {
+    display: inline;
+    float: left;
+    padding: 0 10px;
+    width: 180px;
+}
+#footer .footer-nav .nav-right {
+    display: inline;
+    float: left;
+    width: 370px;
+}
+#footer .footer-nav a {
+    display: block;
+}
+#footer .footer-nav ul {
+    list-style-type: none;
+    padding-bottom: 10px;
+}
+#footer .footer-nav ul li {
+    float: left;
+    padding: 5px 0 0 20px;
+    width: 160px;
+}
+#footer .footer-nav ul li.first {
+    background: none repeat scroll 0 0 #D8CCA9;
+    font-weight: bold;
+    line-height: 25px;
+    padding: 0 0 0 20px;
+}
+#footer .footer-nav ul.nav-left li.first, #footer .footer-nav ul.nav-right li.first {
+    width: 350px;
+}
+#footer .footer-nav ul.nav-middle li.first {
+    width: 160px;
+}
+#footer .footer-nav .nav-left-physicians {
+    display: inline;
+    float: left;
+    width: 560px;
+}
+#footer .footer-nav .nav-middle-physicians {
+    display: inline;
+    float: left;
+    padding: 0 10px;
+    width: 180px;
+}
+#footer .footer-nav .nav-right-physicians {
+    display: inline;
+    float: left;
+    width: 180px;
+}
+#footer .footer-nav ul.nav-left-physicians li.first {
+    width: 540px;
+}
+#footer .footer-nav ul.nav-middle-physicians li.first, #footer .footer-nav ul.nav-right-physicians li.first {
+    width: 160px;
+}
+#footer p {
+    clear: both;
+    color: #34312E;
+    display: block;
+    padding: 11px 0 12px;
+    text-align: center;
+}
+#social-media {
+    border-top: 1px solid #FFFFFF;
+    clear: both;
+    height: 29px;
+    margin-bottom: 2px;
+    padding-top: 20px;
+    width: 100%;
+}
+#social-media ul {
+    margin: 0 auto;
+    padding: 0;
+    width: 214px;
+}
+#social-media span {
+    display: none;
+}
+#social-media li {
+    display: block;
+    float: left;
+    height: 29px;
+    list-style: none outside none;
+    margin-right: 16px;
+    padding: 0;
+}
+#social-media a {
+    background: url("glo-social-media.jpg") no-repeat scroll 0 0 transparent;
+    display: block;
+    height: 29px;
+    width: 30px !important;
+}
+#social-media #twitter a {
+    background-position: 0 -29px;
+}
+#social-media #facebook a {
+    background-position: -30px -29px;
+}
+#social-media #youtube a {
+    background-position: -60px -29px;
+}
+#social-media #flickr a {
+    background-position: -90px -29px;
+}
+#social-media #rss a {
+    background-position: -120px -29px;
+}
+#social-media #rss {
+    margin: 0;
+    padding: 0;
+}
+

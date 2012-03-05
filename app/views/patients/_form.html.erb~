@@ -1,0 +1,104 @@
+<%= form_for(@patient) do |f| %>
+  <% if @patient.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@patient.errors.count, "error") %> prohibited this patient from being saved:</h2>
+      <ul>
+      <% @patient.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+  <table>
+    <tbody>
+      <tr>
+        <td><%= f.label :title %></td>
+        <td><%= f.select :title, ["Mr.", "Ms", "Mrs."] %></td>
+      </tr>
+      <tr>
+        <td>Name</td>
+        <td><%= f.text_field :given_name, :size => 12 %></td>
+      </tr>
+      <tr>
+        <td>Middle Name</td>
+        <td><%= f.text_field :middle_name, :size => 12 %></td>
+      </tr>
+      <tr>
+        <td>Surname</td>
+        <td><%= f.text_field :family_name, :size => 12 %></td>
+      </tr>
+      <tr>
+        <td><%= f.label :sex %></td>
+        <td>M<%= f.radio_button :sex, "M" %>
+            F<%= f.radio_button :sex, "F" %></td>        
+      </tr>
+      <tr>
+        <td><%= f.label :blood_group %></td>
+        <td><%= f.select :blood_group, ["A", "A+", "A-", "B+", "B-", "O+", "O-"] %></td>
+      </tr>
+      <tr>
+        <td><%= f.label :date_of_birth %></td>
+        <td><%= f.date_select :date_of_birth, :include_blank => false %></td>
+      </tr>
+      <tr>
+        <td><%= f.label :street_address %></td>
+        <td><%= f.text_field :street_address, :size => 12 %></td>
+      </tr>
+      <tr>
+        <td><%= f.label :city %></td>
+        <td><%= f.text_field :city, :size => 12 %></td>
+      </tr>
+      <tr>
+        <td><%= f.label :zip %></td>
+        <td><%= f.number_field :zip, :size => 12 %></td>
+      </tr>
+      <tr>
+        <td><%= f.label :phone1, :size => 12 %></td>
+        <td><%= f.number_field :phone1, :size => 12 %>(eg. 0562-2579829)</td>
+      </tr>
+      <tr>
+        <td><%= f.label :phone2 %></td>
+        <td><%= f.number_field :phone2, :size => 12 %>(eg. 0562-2579829)</td>
+      </tr>
+      <tr>
+        <td><%= f.label :mobile %></td>
+        <td><%= f.number_field :mobile, :size => 12 %></td>
+      </tr>
+      <tr>
+        <td><%= f.label :fax %></td>
+        <td><%= f.number_field :fax, :size => 12 %></td>
+      </tr>
+      <tr>
+        <td><%= f.label :email %></td>
+        <td><%= f.text_field :email, :size => 12 %></td>
+      </tr>
+      <tr>
+        <td><%= f.label :citizenship %></td>
+        <td><%= f.text_field :citizenship, :size => 12 %></td>
+      </tr>
+      <tr>
+        <td><%= f.label :religion %></td>
+        <td><%= f.text_field :religion, :size => 12 %></td>
+      </tr>
+      <tr>
+        <td><%= f.label :occupation %></td>
+        <td><%= f.text_field :occupation, :size => 12 %></td>
+      </tr>
+      <tr>
+        <td><%= f.label :employer %></td>
+        <td><%= f.text_field :employer, :size => 12 %></td>
+      </tr>
+      <tr>
+        <td><%= f.label :contact_person %></td>
+        <td><%= f.text_field :contact_person, :size => 12 %></td>
+      </tr>
+      <tr>
+        <td><%= f.label :contact_relation %></td>
+        <td><%= f.text_field :contact_relation, :size => 12 %></td>
+      </tr>
+    </tbody>
+  </table>
+  <div class="actions">
+    <%= f.submit "Save" %>
+  </div>
+<% end %>

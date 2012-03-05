@@ -1,0 +1,476 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd" >
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" > 
+<head>
+	
+		
+	
+		<title>IU Health</title>
+
+		<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+		<meta name="description" content="Named among the 'Best Hospitals in America' by US News & World Report for five consecutive years, Indiana University Health is the result of a cooperative effort of three downtown Indianapolis hospitals." />
+		<meta name="keywords" content="" />
+	
+		
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<meta name="google-site-verification" content="0kSm7s0cADBRIWQ8eko-aost7MzTzLgvDJunoz3L-rY" />
+
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+
+
+
+<link rel="stylesheet" href="/styles/all.css/?1.1.7" type="text/css" media="screen" charset="utf-8"/>
+<link rel="stylesheet" type="text/css" media="print" href="http://iuhealth.org/?css=styles/print.v.1299045245" />
+
+	
+			<link type="text/css" media="screen,projection" rel="stylesheet" href="http://iuhealth.org/?css=styles/slider-home.v.1294461996" />
+	
+
+
+
+<!--[if IE 6]>
+	<link rel="stylesheet" type="text/css" media="screen,projection" href="http://iuhealth.org/?css=styles/ie6.v.1322002889" />
+<![endif]-->
+<!--[if IE 7]>
+	<link rel="stylesheet" type="text/css" media="screen,projection" href="http://iuhealth.org/?css=styles/ie7.v.1322002801" />
+<![endif]-->
+
+<link rel="alternate" type="application/atom+xml" title="Strength - The IU Health Blog" href="http://iuhealth.org/rss-feeds/iuhealth-atom/" />
+<link rel="alternate" type="application/atom+xml" title="IU Health - News" href="http://iuhealth.org/rss-feeds/iuhealth-atom/" />
+
+<!--<script type="text/javascript">
+var URL=document.location;
+URL+="";
+if(URL.toLowerCase() != URL){ //Check if the URL needs modified
+//If so, then replace it.
+document.location.replace(URL.toLowerCase());
+}
+</script>-->
+
+<script type='text/javascript' src='/js/jquery-1.3.2.min.js'></script>
+
+<!-- Tracking Scripts -->
+
+
+<script type="text/javascript" src="http://scripts.hyconnect.net/iuhealth.org/ganalytics-v2.js?0301"></script>
+<script type="text/javascript" src="http://scripts.hyconnect.net/iuhealth.org/track-actions-v2.js?0301"></script>
+
+<!--[if !IE 7]>
+<script type="text/javascript" src="/foresee/foresee-analytics-j6581.js"></script>
+<script type="text/javascript" src="/foresee/foresee-trigger.js"></script>
+<![endif]-->
+
+
+
+
+<!-- php to track location -->
+
+	
+	<script type="text/javascript">
+		function codaSliderInitComplete() {
+			var slider = $('#slider');
+			slider.css('position','relative');
+			slider.css('top','0px');
+			slider.css('left','0px');
+		}
+	</script>
+
+</head>
+
+<body id="home">
+
+	<div id="content-wrap">
+	<div class="jump-menu">
+		<div class="global-jump">
+			<div class="jump-container">
+
+			<form name="jump_form" id="jump_form" class="jqtransform" action="">
+				<label for="locations">Locations</label>
+				<select name="locations" id="locations" onchange="location=document.jump_form.locations.options[document.jump_form.locations.selectedIndex].value;">
+					<option id="first-choice" value="#">Jump to a location</option>
+					<optgroup label="Locations">
+					
+					<option value="/arnett/">IU Health Arnett Hospital</option>
+	       			
+					<option value="/ball-memorial/">IU Health Ball Memorial Hospital</option>
+
+	       			
+					<option value="/bedford/">IU Health Bedford Hospital</option>
+	       			
+					<option value="/blackford/">IU Health Blackford Hospital</option>
+	       			
+					<option value="/bloomington/">IU Health Bloomington Hospital</option>
+	       			
+					<option value="/goshen/">IU Health Goshen Hospital</option>
+	       			
+					<option value="/laporte/">IU Health La Porte Hospital</option>
+	       			
+					<option value="/methodist/">IU Health Methodist Hospital</option>
+
+	       			
+					<option value="/morgan/">IU Health Morgan Hospital</option>
+	       			
+					<option value="/north/">IU Health North Hospital</option>
+	       			
+					<option value="/paoli/">IU Health Paoli Hospital</option>
+	       			
+					<option value="/saxony/">IU Health Saxony Hospital</option>
+	       			
+					<option value="/starke/">IU Health Starke Hospital</option>
+	       			
+					<option value="/tipton/">IU Health Tipton Hospital</option>
+
+	       			
+					<option value="/university/">IU Health University Hospital</option>
+	       			
+					<option value="/west/">IU Health West Hospital</option>
+	       			
+					<option value="/white-memorial/">IU Health White Memorial Hospital</option>
+	       			
+					<option value="/riley/">Riley Hospital for Children at IU Health</option>
+	       			
+	       			</optgroup>
+				</select>
+			</form>
+
+			</div>
+		</div>
+	</div>
+	
+	<div id="header">
+		<h1><a href="/" title="Indiana University Health"><span>Indiana University Health</span></a></h1>
+		
+		<div>
+			<a href="javascript:void(0);" title="print" id="print" onclick="javascript:window.print();return false;"><span>Print</span></a>
+			<div id="search">
+
+	    		<form method="get" id="searchForm" action="/search/">
+	    			<label for="search-box">Search IUHealth.org</label>
+	        		<input type="text" name="q" id="search-box" size="24" value="Search IUHealth.org" onfocus="clearText(this)" onblur="resetText(this)" />
+	           		<input type="submit" class="search-btn" id="search-submit" value="" />	
+	        	</form>
+	        </div>	
+    	 </div>
+     </div>
+     
+     <div id="nav-wrap">
+
+		<div id="global-nav">
+			<ul>
+			    <li id="nav-1"><a id="global-selected" href="/" title="Indiana University Health Homepage." accesskey="1"><span>Home</span></a></li>
+			    <li id="nav-2"><a href="/medical-services/" title="Browse clinical services we provide." accesskey="2"><span>Medical Services</span></a></li>
+		    	<li id="nav-3"><a href="/find-a-doctor/" title="Find a doctor or other healthcare provider." accesskey="3"><span>Find a Doctor</span></a></li>
+			    <li id="nav-4"><a href="/patients/" title="Access information for our patients and their families." accesskey="4"><span>For Patients</span></a></li>
+			    <li id="nav-5"><a href="/health-professionals/" title="Access information for referring physicians and healthcare providers." accesskey="5"><span>For Health Professionals</span></a></li>
+
+			    <li id="nav-6"><a href="/researchers/" title="Access information for researchers." accesskey="6"><span>For Researchers</span></a></li>
+		    	<li id="nav-7"><a href="/contact/" title="Find our locations nearest to you." accesskey="7"><span>Contact / Locations</span></a></li>
+			</ul>
+		</div>
+	</div>
+
+<div style="display:none;">
+<script language='JavaScript' type="text/javascript">
+	var prd=new Date(),pru=Date.UTC(prd.getUTCFullYear(),prd.getUTCMonth(),prd.getUTCDay(),prd.getUTCHours(),prd.getUTCMinutes(),prd.getUTCSeconds(),prd.getUTCMilliseconds());
+	var pr_eid=pru+Math.random();
+	var pr_event='';
+	var pr_item='';
+	var pr_quantity='';
+	var pr_value='';
+	document.write("<img width='1' alt='IU Health' height='1' src='http://ev.ads.pointroll.com/event/?ss=059A54C9-2D7B-48C2-BEA5-D97323630F79&av=6781&eid="+pr_eid+"&ev="+pr_event+"&item="+pr_item+"&q="+pr_quantity+"&val="+pr_value+"&r="+Math.random()+"'/>");
+</script>
+
+<script type="text/javascript">
+function System_Logo(){
+ var prd=new Date(),pru=Date.UTC(prd.getUTCFullYear(),prd.getUTCMonth(),prd.getUTCDay(),prd.getUTCHours(),prd.getUTCMinutes(),prd.getUTCSeconds(),prd.getUTCMilliseconds());
+ var pr_eid=pru+Math.random();
+ var pr_event='';
+ var pr_item='';
+ var pr_quantity='';
+ var pr_value='';
+ var px=new Image(1,1);px.src="http://ev.ads.pointroll.com/event/?ss=AED34374-989F-40FF-84BC-199A453DE966&av=6781&eid="+pr_eid+"&ev="+pr_event+"&item="+pr_item+"&q="+pr_quantity+"&val="+pr_value+"&r="+Math.random();
+}
+</script>
+</div>
+    <div id="main-callout">
+    	
+    	<div id="slider" style="position: absolute; top: -10000px; left: -10000px;">
+			<div id="coda-nav-1" class="coda-nav">
+				<ul id="slide-5">
+					
+													<li class="tab1"><a href="#1">1</a></li>
+											
+													<li class="tab2"><a href="#2">2</a></li>
+
+											
+													<li class="tab3"><a href="#3">3</a></li>
+											
+													<li class="tab4"><a href="#4">4</a></li>
+											
+													<li class="tab5"><a href="#5">5</a></li>
+											
+				</ul>
+			</div>
+			<div class="coda-slider preload" id="coda-slider-1">
+				
+				<div class="panel">
+
+					<div class="panel-wrapper">
+							<a href="/stories/" title="Unmatched expertise that is changing lives for the better."><img src="/images/sized/images/glo-hom-sli/IUH_HomePage_webfilms_P4-868x247.jpg" width="868" height="247"  title="Unmatched expertise that is changing lives for the better." alt="Unmatched expertise that is changing lives for the better." /></a>
+												</div>
+				</div>
+				
+				<div class="panel">
+					<div class="panel-wrapper">
+							<a href="/about-iu-health/national-rankings/" title="Expert Physicians backed by national rankings."><img src="/images/sized/images/glo-hom-sli/rankings-promo-868x247.jpg" width="868" height="247"  title="Expert Physicians backed by national rankings." alt="Expert Physicians backed by national rankings." /></a>
+												</div>
+				</div>
+
+				
+				<div class="panel">
+					<div class="panel-wrapper">
+							<a href="/about-iu-health/in-the-community/community-benefits/" title="Community Benefits Report"><img src="/images/sized/images/glo-hom-sli/CommunityBenefitReport_1-868x247.jpg" width="868" height="247"  title="Community Benefits Report" alt="Community Benefits Report" /></a>
+												</div>
+				</div>
+				
+				<div class="panel">
+					<div class="panel-wrapper">
+							<a href="/innovation/" title="Innovative thinking originates here."><img src="/images/sized/images/glo-hom-sli/IUhealth_phase2banners_innovate-868x247.jpg" width="868" height="247"  title="Innovative thinking originates here." alt="Innovative thinking originates here." /></a>
+												</div>
+
+				</div>
+				
+				<div class="panel">
+					<div class="panel-wrapper">
+							<a href="/north/bariatrics/bariatric-seminars/" title="It's not just the pounds you lose, it's everything you gain."><img src="/images/sized/images/glo-hom-sli/north-bariatrics-banner-868x247.jpg" width="868" height="247"  title="It's not just the pounds you lose, it's everything you gain." alt="It's not just the pounds you lose, it's everything you gain." /></a>
+												</div>
+				</div>
+				
+			</div>
+		</div>
+		
+    </div>
+
+    
+	<div id="bottom-callouts">
+		<div class="left">
+			<h2>Pay Your Bill</h2>
+			<div id="locations"><a href="/patients/billing-center/" title="Pay Your Bill"><span>Pay Your Bill</span></a></div>
+			<h2>Find A Doctor</h2>
+			<div id="services"><a href="/find-a-doctor/" title="Find A Doctor"><span>Find A Doctor</span></a></div>			
+		</div>
+
+		<div class="center">
+			<h2>Portals</h2>
+			<ul>
+				
+					
+					<li><a href="/patients/" title="Patients"><img src="/images/sized/images/glo-hom-por/glo-hom-por-Patient-113x129.jpg" width="113" height="129"  title="Patients" alt="Patients" /></a><h3><a href="/patients/" title="Patients">Patients</a></h3><p>Tools for patients and family members.</p></li>
+					
+					<li><a href="/health-professionals/" title="Health Professionals"><img src="/images/sized/images/glo-hom-por/glo-hom-por-Provider-113x129.jpg" width="113" height="129"  title="Health Professionals" alt="Health Professionals" /></a><h3><a href="/health-professionals/" title="Health Professionals">Health Professionals</a></h3><p>Tools for physicians and other medical providers.</p></li>
+					
+					<li><a href="/researchers/" title="Researchers"><img src="/images/sized/images/glo-hom-por/glo-hom-por-Researcher-113x129.jpg" width="113" height="129"  title="Researchers" alt="Researchers" /></a><h3><a href="/researchers/" title="Researchers">Researchers</a></h3><p>Tools for researchers.</p></li>
+
+					
+				
+			</ul>
+		</div>
+		<div class="right">
+			<h2>Blog</h2>
+			<ul>
+				
+					<li><a href="http://iuhealth.org/blog/detail/upcoming-cooking-class-make-sure-to-rsvp/" title="Upcoming Cooking Class!! Make sure to RSVP!">Upcoming Cooking Class!! Make sure to&#8230;</a>
+					<span>February 29th, 2012</span></li>
+
+				
+					<li><a href="http://iuhealth.org/blog/detail/recipe-of-the-week-salsa-to-the-tuna-salad/" title="Recipe of the Week: Salsa to the Tuna Salad">Recipe of the Week: Salsa to the Tuna&#8230;</a>
+					<span>February 28th, 2012</span></li>
+				
+					<li><a href="http://iuhealth.org/blog/detail/tuesdays-support-groups-at-iu-health-bariatric-medical-weight-loss/" title="Tuesday&#8217;s Support Groups at IU Health Bariatric &amp; Medical Weight Loss">Tuesday&#8217;s Support Groups at IU&#8230;</a>
+					<span>February 27th, 2012</span></li>
+				
+			</ul>
+			<p class="view-all"><a href="http://iuhealth.org/blog/" title="View all updates">View all updates</a></p>
+
+		</div>
+	</div>
+
+	
+	
+</div>
+
+<div id="footer-wrapper">
+	<div id="footer-wrap-interior"> 
+		<div id="footer">
+			<div class="footer-nav">
+				<ul class="nav-left-physicians">
+					<li class="first">IU Health</li>
+
+					<li><a href="/about-iu-health/" title="About">About</a></li>
+					<li><a href="/employees/" title="Employees">Employees</a></li>
+					<li><a href="/careers/" title="Careers">Careers</a></li>
+					<li><a href="https://www.iuhealth.net/portal/IUH/myService" title="My Services">My Services</a></li>
+					<li><a href="/education/" title="Education">Education</a></li>					
+					<li><a href="/physician-groups/" title="Physician Groups">Physician Groups</a></li>
+
+					<li><a href="/business-solutions/" title="Business Solutions">Business Solutions</a></li>
+				</ul>
+				<ul class="nav-middle-physicians">
+					<li class="first">Site Information</li>
+					<li><a href="/sitemap/" title="Sitemap">Sitemap</a></li>
+					<li><a href="/legal-notices/" title="Legal Notices">Legal Notices</a></li>
+				</ul>
+
+				<ul class="nav-right-physicians">
+					<li class="first">Stay Connected</li>
+					<li><a href="/newsroom/" title="Newsroom">Newsroom</a></li>
+					<li><a href="/blog/" title="Blog">Blog</a></li>
+					<li><a href="/mobile/" title="Mobile">Mobile</a></li>
+				</ul>
+			</div>
+
+			
+			<div id="social-media">
+				<ul>
+					<li id="twitter"><a href="http://www.twitter.com/IU_Health" target="_blank" title="Twitter"><span>Twitter</span></a></li>
+		    		<li id="facebook"><a href="http://www.facebook.com/pages/IU-Health/177699175590610" target="_blank" title="Facebook"><span>Facebook</span></a></li>
+		    		<li id="youtube"><a href="http://www.youtube.com/iuhealth" target="_blank" title="YouTube"><span>YouTube</span></a></li>
+		       		<li id="flickr"><a href="http://www.flickr.com/photos/iuhealth" target="_blank" title="Flickr"><span>Flickr</span></a></li>
+		        	<li id="rss"><a href="/rss-feeds/" title="RSS Feeds"><span>RSS Feeds</span></a></li>
+
+				</ul>
+			</div>
+			
+			<p>&copy;2012 Indiana University Health</p>
+		</div>
+	</div>
+</div>
+
+<!--<script type="text/javascript" src="http://fast.fonts.com/jsapi/d8482dac-95bc-4940-bd84-d5e482cb4584.js"></script>-->
+
+<script type="text/javascript" src="http://iuhealth.org/utils/min/index.php?f=js/jquery.tools.min.js,js/jquery.easing.1.3.js,js/jquery.anchor.js,js/jquery.jqtransform.js,js/jquery.coda-slider-2.0.js,js/jquery.fancybox-1.3.4.pack.js,js/jquery.bgpos.js,js/twitStream.js,js/jquery.hoverIntent.minified.js,js/mega-drop.js"></script>
+
+<script type="text/javascript">
+// expand and collapse by class
+$(document).ready(function () {
+
+    //Hide (Collapse) the toggle containers on load
+    $("#side-nav ul li ul.hide-sub").hide();
+    $("#side-nav ul li ul.show-sub").show();
+
+    //Switch the "Open" and "Close" state per click then slide up/down (depending on open/close state)
+    $("#side-nav .btn").click(function () {
+        $(this).toggleClass("alive").next().slideToggle("fast");
+        return false; //Prevent the browser jump to the link anchor
+    });
+    $("#side-nav .active").click(function () {
+        $(this).toggleClass("reverse").next().slideToggle("fast");
+        return false; //Prevent the browser jump to the link anchor
+    });
+
+});
+</script>
+
+
+<script type="text/javascript">
+var acEx = "<div class='accordionExpand'><a href='javascript: accordionExpand();'>Expand All</a>";
+var acCo = "<div class='accordionCollapse'><a href='javascript: accordionCollapse();'>Collapse All</a>";
+
+function aClick() {
+	$(".accordion").find(".pane").css("display","none");
+	$(".accordion").find("h2.current").next(".pane").css("display","block");
+	$(".accordionExpand").show();
+	$(".accordionCollapse").hide();
+	$(".accordion h2").unbind('click', aClick);
+}
+function accordionExpand() {
+	$(".accordion").find(".pane").css("display","block");
+	$(".accordion h2").bind("click", aClick);
+	$(".accordionExpand").before(acCo);
+	$(".accordionExpand").hide();
+}
+function accordionCollapse() {
+	$(".accordion").find(".pane").css("display","none");
+	$(".accordion").find("h2.current").next(".pane").css("display","block");
+	$(".accordionExpand").show();
+	$(".accordionCollapse").hide();
+}
+
+$(function(){
+	// Coda Slider
+	
+	if(typeof codaSliderInitComplete=='function'){codaSliderInitComplete();}
+	$('#coda-slider-1').codaSlider({dynamicArrows:false,dynamicTabs:false,autoSlide:true,autoSlideInterval:6000,autoSlideStopWhenClicked:true,crossLinking:false});
+    // FancyBox
+	$("a.fancybox").fancybox({'overlayShow':true,'transitionIn':'elastic','transitionOut':'elastic'});
+	$("a.iframe").fancybox({'width':'75%','height':'90%','autoScale': true,'transitionIn':'elastic','transitionOut':'elastic','type':'iframe'});
+	// Tabbed Sections
+    $("ul.tabs").tabs(".panes-wrapper > .panes", {effect: 'slide', speed: '4000'});
+    $("ul.tabs-int").tabs(".panes-wrapper > .panes > .panes-int", {effect: 'slide', initialIndex: '0', speed: '4000'});
+	// Accordion
+	$(".accordion").tabs(".pane", {tabs:'h2',effect:'slide',initialIndex:'0'}).eq(0).before(acEx);
+	// Contact Map
+	$("#map-canvas").css("display","none");
+	$("#map-canvas").fadeIn(2000);
+	// Location Dropdown
+	$("form.jqtransform").jqTransform();
+	$(".jqTransformSelectWrapper").css({"width" : "262px"});
+	$(".jqTransformSelectWrapper ul").css("width","260px");
+	$(".quick-links ul li").eq(0).hide();
+	$(".quick-links ul li").eq(5).addClass('five');
+	$(".quick-links ul li").eq(6).addClass('six');
+});
+
+// Clear and Restore Search 
+function clearText(s){if(s.defaultValue==s.value)s.value="";}
+function resetText(s){if(s.value=='')s.value=s.defaultValue;}
+function checkChanged(){
+	if(document.getElementById('search-box').value=='Enter Search Term'){
+		alert('Please Enter a Search Term');
+		document.getElementById('search-box').focus();
+		return false;
+	}
+}</script>
+
+
+
+
+
+
+
+<script type="text/javascript">  
+$(document).ready(function() {
+    
+$("#nav-1 .sub").hover(function(){
+	$('#nav-1 a').toggleClass('hovered');
+},function(){
+	$('#nav-1 a').toggleClass('hovered');
+});
+
+$("#nav-2 .sub").hover(
+  function() {$('#nav-2 a').toggleClass('hovered');}, 
+  function() {$('#nav-2 a').toggleClass('hovered');});
+
+$("#nav-3 .sub").hover(
+  function() {$('#nav-3 a').toggleClass('hovered');}, 
+  function() {$('#nav-3 a').toggleClass('hovered');});
+
+$("#nav-4 .sub").hover(
+  function() {$('#nav-4 a').toggleClass('hovered');}, 
+  function() {$('#nav-4 a').toggleClass('hovered');});
+
+$("#nav-5 .sub").hover(
+  function() {$('#nav-5 a').toggleClass('hovered');}, 
+  function() {$('#nav-5 a').toggleClass('hovered');});
+
+$("#nav-6 .sub").hover(
+  function() {$('#nav-6 a').toggleClass('hovered');}, 
+  function() {$('#nav-6 a').toggleClass('hovered');});
+
+$("#nav-7 .sub").hover(
+  function() {$('#nav-7 a').toggleClass('hovered');}, 
+  function() {$('#nav-7 a').toggleClass('hovered');});
+});
+</script>
+
+</body>
+</html>
